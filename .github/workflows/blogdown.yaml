@@ -49,13 +49,15 @@ jobs:
           
       - name: Clone existing gh-pages branch
         run: |
+          mkdir -p $HOME/site
+          cp -Rf public/ $HOME/site
           cd $HOME
           git clone --quiet --branch=$TARGET_BRANCH https://${GITHUB_PAT}@github.com/${GITHUB_REPOSITORY}.git $TARGET_BRANCH
           cp -R $TARGET_BRANCH/.git $HOME/.git
           rm -rf $TARGET_BRANCH/*
           cp -R $HOME/.git $TARGET_BRANCH/.git
           cd $TARGET_BRANCH
-          cp -Rf $HOME/${GITHUB_REPOSITORY}/public .
+          cp -Rf $HOME/site .
           git add -Af .
           git commit -m "Built site for $GITHUB_REPOSITORY"
           git push -fq origin $TARGET_BRANCH
