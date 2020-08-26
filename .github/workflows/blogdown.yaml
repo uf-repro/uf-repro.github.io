@@ -63,5 +63,5 @@ jobs:
        uses: Cecilapp/GitHub-Pages-deploy@master
        env:
           EMAIL: actions@github.com
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BUILD_DIR: public/ # where blogdown generates the static site
