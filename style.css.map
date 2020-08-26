@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/Users/hye/websites/uf-repro.github.io",
+	"sourceRoot": "/Users/runner/work/uf-repro.github.io/uf-repro.github.io",
 	"sources": [
 		"themes/syna/assets/styles/index.scss",
 		"themes/syna/assets/styles/fontawesome/fontawesome.scss",
