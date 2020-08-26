@@ -54,14 +54,8 @@ jobs:
           cp -R $TARGET_BRANCH/.git $HOME/.git
           rm -rf $TARGET_BRANCH/*
           cp -R $HOME/.git $TARGET_BRANCH/.git
-      
-      - name: Copy over files
-        run: |
           cd $TARGET_BRANCH
           cp -Rf $HOME/${GITHUB_REPOSITORY}/public .
-      
-      - name: Deploy to gh-pages
-        run: |
           git add -Af .
           git commit -m "Built site for $GITHUB_REPOSITORY"
           git push -fq origin $TARGET_BRANCH
