@@ -12,6 +12,6 @@ menu_title = "Further Resources"
   text = "Logo Subtext"
 +++
 
-#### Syna Theme
+#### Sponsors
 
-Highly customizable open source theme for Hugo based static websites
+UF ReproducibiliTea is supported by the [Health Science Center Libraries](https://library.health.ufl.edu/)

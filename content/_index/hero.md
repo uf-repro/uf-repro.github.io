@@ -6,8 +6,8 @@ weight = 50
 background = "light" # can influence the text color
 particles = true
 
-title = "Syna Theme"
-subtitle = "Showcase your next project"
+title = "UF ReproducibiliTea"
+subtitle = "Reproducibility and Open Science Journal Club"
 
 [header]
   image = "header.jpg"
@@ -18,17 +18,18 @@ subtitle = "Showcase your next project"
   #height = "150px" # optional - will default to image height
 
 [[buttons]]
-  text = "Features"
-  url = "#features"
+  text = "Why Reproducibility?"
+  url = "#motivations"
   color = "dark" # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
 
 [[buttons]]
-  text = "Getting Started"
-  url = "/docs/"
+  text = "Join Us"
+  url = "/Meetups"
   color = "primary"
-
+  
 [[buttons]]
-  text = "Fragments"
-  url = "#fragments"
+  text = "About Us"
+  url = "/about/"
   color = "dark"
+
 +++

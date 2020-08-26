@@ -25,8 +25,8 @@ googleAnalytics = ""
      unsafe = true
 
 [params]
-  name = "Okkur Labs"
-  description = "Open Source Theme for your next project"
+  name = "UF ReproducibiliTea"
+  description = "Reproducibility and Open Science Journal Club"
   debug = true
   unsafeEvents = true # Default is false. Enables ?event=type format of url events.
 
@@ -76,13 +76,13 @@ googleAnalytics = ""
   weight = 10
 
 [[menu.main]]
-  url = "/fragments"
-  name = "Fragments"
+  url = "/meetups"
+  name = "Meetups"
   weight = 20
 
 [[menu.main]]
-  url = "/docs"
-  name = "Docs"
+  url = "/papers"
+  name = "Papers"
   weight = 30
 
 [[menu.main]]
@@ -91,19 +91,19 @@ googleAnalytics = ""
   weight = 40
 
 [[menu.footer]]
-  url = "https://syna.okkur.org/demo"
-  name = "Getting Started"
+  url = "https://github.com/uf-repro/"
+  name = "UF ReproducibiliTea Materials"
   weight = 10
-
+  
 [[menu.footer]]
-  url = "https://about.okkur.org/"
-  name = "About Okkur Labs"
+  url = "https://reproducibilitea.org/"
+  name = "The ReproducibiliTea Network"
   weight = 20
 
 [[menu.footer_social]]
   weight = 30
   name = "github"
-  url = "https://git.okkur.org/syna"
+  url = "https://github.com/uf-repro/uf-repro.github.io"
   pre = "fab fa-github fa-stack-2x"
 
 [[menu.copyright_footer]]
