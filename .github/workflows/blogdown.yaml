@@ -4,6 +4,10 @@ on:
 
 name: blogdown
 
+defaults:
+  run:
+    working-directory: proj
+
 jobs:
   build:
     runs-on: macOS-latest
@@ -40,7 +44,7 @@ jobs:
 
       - name: Build site
         run: |
-          R -e 'blogdown::build_site(TRUE)'
+          R -e 'blogdown::build_site()'
 
       - name: Configure Git
         run: |
