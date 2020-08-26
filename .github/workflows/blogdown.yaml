@@ -4,10 +4,6 @@ on:
 
 name: blogdown
 
-defaults:
-  run:
-    working-directory: proj
-
 jobs:
   build:
     runs-on: macOS-latest
