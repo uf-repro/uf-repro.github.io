@@ -7,9 +7,6 @@ name: blogdown
 jobs:
   build:
     runs-on: macOS-latest
-    env:
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-      TARGET_BRANCH: gh-pages
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
@@ -42,24 +39,8 @@ jobs:
         run: |
           R -e 'blogdown::build_site()'
 
-      - name: Configure Git
-        uses: fregante/setup-git-token@v1
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          name: GitHub Actions
-          email: actions@github.com
-          token: ${{ secrets.GITHUB_TOKEN }}
-          
-      - name: Clone existing gh-pages branch
-        run: |
-          mkdir -p $HOME/site
-          cp -Rf public/ $HOME/site
-          cd $HOME
-          git clone --quiet --branch=$TARGET_BRANCH https://${GITHUB_PAT}@github.com/${GITHUB_REPOSITORY}.git $TARGET_BRANCH
-          cp -R $TARGET_BRANCH/.git $HOME/.git
-          rm -rf $TARGET_BRANCH/*
-          cp -R $HOME/.git $TARGET_BRANCH/.git
-          cd $TARGET_BRANCH
-          cp -Rf $HOME/site .
-          git add -Af .
-          git commit -m "Built site for $GITHUB_REPOSITORY"
-          git push -fq origin $TARGET_BRANCH
+          github_token ${{ secrets.GITHUB_TOKEN}}
+          publish_dir: ./public
