@@ -86,9 +86,14 @@ googleAnalytics = ""
   weight = 30
 
 [[menu.main]]
+  url = "/code-of-conduct"
+  name = "Code of Conduct"
+  weight = 40
+
+[[menu.main]]
   url = "/about"
   name = "About"
-  weight = 40
+  weight = 9001
 
 [[menu.footer]]
   url = "https://github.com/uf-repro/"

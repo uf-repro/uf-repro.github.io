@@ -23,13 +23,13 @@ subtitle = "**Reproducibility and Open Science Journal Club**"
   color = "dark" # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
 
 [[buttons]]
-  text = "Our Events"
-  url = "/Meetups"
+  text = "FAQ"
+  url = "#faq"
   color = "primary"
-  
+
 [[buttons]]
-  text = "About Us"
-  url = "/about/"
+  text = "Contact"
+  url = "#contact"
   color = "dark"
 
 +++
