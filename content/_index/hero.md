@@ -7,15 +7,15 @@ background = "light" # can influence the text color
 particles = true
 
 title = "UF ReproducibiliTea"
-subtitle = "Reproducibility and Open Science Journal Club"
+subtitle = "**Reproducibility and Open Science Journal Club**"
 
 [header]
-  image = "header.jpg"
+  image = "smathers.jpg"
 
 [asset]
-  image = "logo.svg"
-  width = "500px" # optional - will default to image width
-  #height = "150px" # optional - will default to image height
+  image = "uf-repro-logo.svg"
+  width = "300px" # optional - will default to image width
+  # height = "150px" # optional - will default to image height
 
 [[buttons]]
   text = "Why Reproducibility?"
@@ -23,7 +23,7 @@ subtitle = "Reproducibility and Open Science Journal Club"
   color = "dark" # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
 
 [[buttons]]
-  text = "Join Us"
+  text = "Our Events"
   url = "/Meetups"
   color = "primary"
   
