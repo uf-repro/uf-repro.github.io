@@ -7,7 +7,7 @@ theme = "syna"
 enableGitInfo = true
 version = "0.17.3"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
-ignorefiles = [ "content/dev/.*" ]
+ignorefiles = [ "content/dev/.*", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # Google Analytics tracking
 googleAnalytics = ""
@@ -109,7 +109,7 @@ googleAnalytics = ""
   weight = 30
   name = "github"
   url = "https://github.com/uf-repro/uf-repro.github.io"
-  pre = "fab fa-github fa-stack-2x"
+  pre = "fab fa-github fa-lg text-dark"
 
 [[menu.copyright_footer]]
   url = "/about"

@@ -1,15 +1,15 @@
 +++
 fragment = "footer"
 #disabled = true
-date = "2016-09-07"
+date = "2020-08-26"
 weight = 1200
-background = "secondary"
+background = "dark"
 
 menu_title = "Further Resources"
 
 [asset]
-  image = "logo.svg"
-  text = "Logo Subtext"
+  image = "uf-repro-banner-logo.svg"
+  text = "UF Reproducibilitea"
 +++
 
 #### Sponsors

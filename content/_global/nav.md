@@ -14,6 +14,6 @@ sticky = true
 
 # Branding options
 [asset]
-  image = "logo.svg"
+  image = "uf-repro-banner-logo.svg"
   text = "UF Reproducibilitea"
 +++
