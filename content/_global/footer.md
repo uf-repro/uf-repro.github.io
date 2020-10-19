@@ -8,6 +8,7 @@ background = "dark"
 menu_title = "Further Resources"
 
 [asset]
+  url = "/"
   image = "uf-repro-banner-logo.svg"
   text = "UF Reproducibilitea"
 +++
