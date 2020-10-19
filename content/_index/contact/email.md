@@ -6,4 +6,4 @@ weight = 10
   icon = "far fa-envelope"
 +++
 
-Send us a message at [ufreproducibilitea@gmail.com](mailto:ufreproducibilitea@gmail.com)
+Send us a message at [ufreproducibilitea@gmail.com](mailto:ufreproducibilitea@gmail.com).

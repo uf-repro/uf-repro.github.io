@@ -57,7 +57,7 @@ googleAnalytics = ""
 
   [params.colors]
     primary = "#00838F"
-    secondary = "#868e96"
+    secondary = "#B1BCC7"
     success = "#008f54"
     info = "#00c9dc"
     warning = "#fdf314"
@@ -104,12 +104,6 @@ googleAnalytics = ""
   url = "https://reproducibilitea.org/"
   name = "The ReproducibiliTea Network"
   weight = 20
-
-[[menu.footer_social]]
-  weight = 30
-  name = "github"
-  url = "https://github.com/uf-repro/uf-repro.github.io"
-  pre = "fab fa-github fa-lg text-dark"
 
 [[menu.copyright_footer]]
   url = "/about"
