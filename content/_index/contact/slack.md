@@ -6,4 +6,4 @@ weight = 20
   icon = "fab fa-slack"
 +++
 
-[Join our Slack workspace](ufreproducibilitea.slack.com) to partipate in discussions.
+[Join our Slack workspace](https://join.slack.com/t/ufreproducibilitea/signup) to partipate in discussions.
