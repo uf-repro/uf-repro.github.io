@@ -76,36 +76,26 @@ googleAnalytics = ""
   weight = 10
 
 [[menu.main]]
+  url = "/code-of-conduct"
+  name = "Code of Conduct"
+  weight = 20
+
+[[menu.main]]
   url = "/meetups"
   name = "Meetups"
-  weight = 20
+  weight = 30
 
 [[menu.main]]
   url = "/papers"
   name = "Papers"
-  weight = 30
-
-[[menu.main]]
-  url = "/code-of-conduct"
-  name = "Code of Conduct"
   weight = 40
 
 [[menu.main]]
-  url = "/about"
-  name = "About"
+  url = "/resources"
+  name = "Resources"
   weight = 9001
-
-[[menu.footer]]
-  url = "https://github.com/uf-repro/"
-  name = "UF ReproducibiliTea Materials"
-  weight = 10
-  
-[[menu.footer]]
-  url = "https://reproducibilitea.org/"
-  name = "The ReproducibiliTea Network"
-  weight = 20
 
 [[menu.copyright_footer]]
   url = "/about"
-  name = "About Us"
-  weight = 10
+  name = "about us"
+  weight = 100
