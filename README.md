@@ -2,7 +2,7 @@
 # UF ReproducibiliTea Website
 
 <!-- badges: start -->
-[![GitHub Actions pkgdown workflow](https://github.com/uf-repro/uf-repro.github.io/workflows/pkgdown/badge.svg)](https://github.com/uf-repro/uf-repro.github.io/actions?query=workflow%3Apkgdown)
+[![GitHub Actions blogdown workflow](https://github.com/uf-repro/uf-repro.github.io/workflows/blogdown/badge.svg)](https://github.com/uf-repro/uf-repro.github.io/actions?query=workflow%3Ablogdown)
 <!-- badges: end -->
 
 ## Description
