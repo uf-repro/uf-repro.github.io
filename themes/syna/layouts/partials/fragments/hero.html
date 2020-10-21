@@ -52,13 +52,11 @@
     {{- end }}
     {{- with .Params.subtitle }}
       <div class="hero-subtitle-container row justify-content-center align-items-start">
-        <div class="transbox">
         <h1 class="hero-subtitle overlay jumbotron-heading my-4
           {{- partial "helpers/text-color.html" (dict "self" $self.self) -}}
         ">
           {{- . | markdownify -}}
         </h1>
-        </div>
       </div>
     {{- end -}}
   {{- else }}
