@@ -33,6 +33,7 @@ jobs:
       - name: Install other R packages
         run: |
           R -e 'install.packages("here")'
+          R -e 'remotes::install_github("rstudio/rmarkdown")'
 
       - name: Install hugo
         run: |
