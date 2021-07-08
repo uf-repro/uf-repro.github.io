@@ -2,6 +2,7 @@
 title: "Readings"
 bibliography: my_lib.bib
 csl: cit.csl
+date: "`r Sys.Date()`"
 output: md_document
 ---
 

@@ -183,7 +183,7 @@
         <if type="legal_case" match="none">
           <choose>
             <if variable="DOI">
-              <text variable="DOI" prefix="https://doi.org/"/>
+              <text variable="DOI" prefix="DOI: "/>
             </if>
             <else>
               <text variable="URL"/>
