@@ -49,6 +49,10 @@ These are some initial readings about reproducibility and open science, the rela
 
 * @Miyakawa_2020
 
+### Statistics and Reporting
+
+* @Weissgerber_2018
+
 ### Credit
 
 * @Lamprecht_2020
