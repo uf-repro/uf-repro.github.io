@@ -28,8 +28,8 @@ subtitle = "**Reproducibility and Open Science Journal Club**"
   color = "primary"
 
 [[buttons]]
-  text = "Contact"
-  url = "#contact"
+  text = "Join Us!"
+  url = "#join"
   color = "dark"
 
 +++
